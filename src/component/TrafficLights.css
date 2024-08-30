@@ -1,0 +1,23 @@
+#TrafficLights_Body{
+  background-color: rgb(31, 30, 30);
+  border-radius: 100px;
+  margin: 30px;
+  padding: 0px 20px;
+}
+
+@media screen and (max-width: 480px) {
+  #TrafficLights_Body{
+    padding: 10px 20px;
+    max-width: 160px;
+    margin: 100px auto ;
+  }
+}
+
+.TrafficLights_Lights{
+  background-color: #292929;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin: 20px auto;
+  border: 4px solid #292929;
+}

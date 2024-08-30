@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.App_Div {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .App_Div{
+    display: block;
+    justify-content: space-between;
+  }
+}

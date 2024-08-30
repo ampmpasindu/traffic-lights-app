@@ -1,0 +1,13 @@
+.ControlButton_Body{
+  min-width: 50vh;
+}
+
+@media screen and (max-width: 480px) {
+  .ControlButton_Body{
+    margin-top: -40px;
+  }
+}
+
+.ControlButton_Button_Div {
+  margin: 30px auto;
+}
